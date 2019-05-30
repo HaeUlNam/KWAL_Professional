@@ -19,7 +19,7 @@
 
 ## 각 주차별 진행할 알고리즘 및 자료구조
 
-* 1주차 : Hash Table
+* 1주차(6/8) : Hash Table
   * 참고 : [na982 HashTable 강의편](http://bitly.kr/qkS2j3) [na982 HashTable 구현편](http://bitly.kr/CUwqu5)
   * 추가 공부(선택 사항인데, 하면 좋음) : [라빈-카프](http://bitly.kr/Gc9SyY)
   * 문제풀이 : SWExpert 홍준이사전놀이
