@@ -26,7 +26,7 @@ int get_key(char data) {	//알파벳 넣으면 그에 따른 idnex 리
 	int a = (int)data;
 	return a - 97;
 }
-void insert(int buffer_size, char *buf) {		//값 없는경우(nullptr인 경우) 새 노드 만들어서 추가 이 때, new()안쓰면 주소값 문제 발
+void insert(int buffer_size, char *buf) {		//값 없는경우(nullptr인 경우) 새 노드 만들어서 추가 이 때, new()안쓰면 주소값 문제 발생
 	char data = buf[0];
 	Node* current_node = &nodes[get_key(data)];
 	for (int i = 1; i < buffer_size; i++) {
