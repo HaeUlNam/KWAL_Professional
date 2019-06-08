@@ -17,22 +17,27 @@
 * [박트리님의 STL 구현 레포](http://bitly.kr/93n6lx)
 * [na982님의 DataStructure 강의](http://bitly.kr/YHObM)
 * [SWExpertAcademy의 Reference Code](http://bitly.kr/FJZIbQ)
+* [Pro대비 문제풀이](https://github.com/TaeSeongKwon/Algorithm_DS)
+* https://sangdo913.tistory.com/
 
 ## 각 주차별 진행할 알고리즘 및 자료구조
 
 * 1주차(6/8) : Hash Table
   * 참고 : [na982 HashTable 강의편](http://bitly.kr/qkS2j3) / [na982 HashTable 구현편](http://bitly.kr/CUwqu5)
   * 추가 공부(선택 사항인데, 하면 좋음) : [라빈-카프](http://bitly.kr/Gc9SyY)
-  * 문제풀이 : SWExpert 홍준이사전놀이
+  * 문제풀이 : SWExpert 홍준이사전놀이, [BOJ 친구 네트워크](https://www.acmicpc.net/problem/4195)
+  * 문제풀이참고 : https://sangdo913.tistory.com/102?category=823156
 
 * 2주차 : LinkedList
   * 참고 : [na982 LinkedList 강의편](http://bitly.kr/yQGfMB) / [na982 LinkedList 구현편](http://bitly.kr/9uQ40D)
+  * 문제풀이 : [BOJ 5397 키로거](https://www.acmicpc.net/problem/5397)
   
 * 3주차 : Trie
-  * 문제풀이 : SWExpert 홍준이사전놀이
+  * 문제풀이 : SWExpert 홍준이사전놀이, [BOJ 친구 네트워크](https://www.acmicpc.net/problem/4195)
 
 * 4주차 : KMP
   * 참고 : [SWExpertAcademy KMP 강의](http://bitly.kr/E1CKhC)
+  
   
 * 5주차 : Tree(자식 수가 정해지지 않은 Tree)
   * 참고 : [SWExpertAcademy Tree](http://bitly.kr/YF2BCj)
