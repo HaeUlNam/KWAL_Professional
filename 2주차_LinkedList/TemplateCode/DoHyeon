@@ -1,0 +1,111 @@
+#include <stdio.h>
+#include <algorithm>
+#include <list>
+#include "Windows.h"
+using namespace std;
+
+#define NODE_SIZE 30000	
+#define PUSH_BACK  0
+#define PUSH_FRONT  1
+#define INSERT 2
+#define POP_BACK 3
+#define POP_FRONT 4
+#define ERASE 5
+
+struct NODE {				
+	int data;
+	int prev;
+	int next;
+};
+int test_cmd[NODE_SIZE][3];
+struct Mylist {				
+	int HEAD = NODE_SIZE, TAIL = NODE_SIZE - 1;
+	int pos;
+	NODE node[NODE_SIZE + 1];
+
+	Mylist() {
+		node[HEAD].next = TAIL;
+		node[TAIL].prev = HEAD;
+		pos = 0;
+	}
+
+	void push_back(int data) {
+		int prev = node[TAIL].prev, next = TAIL;
+
+		node[pos].data = data;
+
+		node[pos].prev = prev;
+		node[prev].next = pos;
+
+		node[pos].next = next;
+		node[next].prev = pos;
+
+		pos++;
+	}
+
+	void push_front(int data) {
+		int prev = HEAD, next = node[HEAD].next;
+
+		node[pos].data = data;
+
+		node[pos].prev = prev;
+		node[prev].next = pos;
+
+		node[pos].next = next;
+		node[next].prev = pos;
+
+		pos++;
+
+	}
+
+	void insert(int p, int data) {
+		int next = node[HEAD].next;
+		for (register int i = 0; i < p; i++) {
+			next = node[next].next;
+		}
+		int prev = node[next].prev;
+
+		node[pos].data = data;
+
+		node[pos].prev = prev;
+		node[prev].next = pos;
+
+		node[pos].next = next;
+		node[next].prev = pos;
+
+		pos++;
+	}
+
+	void pop_back() {
+		int tar = node[TAIL].prev;
+		int next = node[tar].next, prev = node[tar].prev;
+
+		node[prev].next = next;
+		node[next].prev = prev;
+	}
+
+	void pop_front() {
+		int tar = node[HEAD].next;
+		int next = node[tar].next, prev = node[tar].prev;
+
+		node[prev].next = next;
+		node[next].prev = prev;
+	}
+
+	void erase(int p) {
+		int tar = node[HEAD].next;
+		for (register int i = 0; i < p; i++) {
+			tar = node[tar].next;
+		}
+		int next = node[tar].next, prev = node[tar].prev;
+
+		node[prev].next = next;
+		node[next].prev = prev;
+	}
+};
+
+Mylist my_list;
+
+int main() {
+	return 0;
+}
