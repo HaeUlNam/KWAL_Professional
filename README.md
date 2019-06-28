@@ -33,7 +33,7 @@
   * 문제풀이 : [BOJ 5397 키로거](https://www.acmicpc.net/problem/5397)
   
 * 3주차 : Trie
-  * 문제풀이 : SWExpert 홍준이사전놀이, [BOJ 친구 네트워크](https://www.acmicpc.net/problem/4195)
+  * 문제풀이 : SWExpert 홍준이사전놀이, [BOJ 전화번호 목록](https://www.acmicpc.net/problem/5052)
 
 * 4주차 : KMP
   * 참고 : [SWExpertAcademy KMP 강의](http://bitly.kr/E1CKhC)
