@@ -1,0 +1,77 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int flag = 0;
+typedef struct node {
+	node *child[10];
+	int end;
+};
+node* newnode() {
+	node* root = (node*)malloc(sizeof(node));
+	for (int i = 0; i < 10; i++) {
+		root->child[i] = 0;
+	}
+	root->end = 0;
+	return root;
+}
+
+void insert(node* root, char* arr) {
+	int len = strlen(arr);
+	node* ptr = root;
+
+	for (int i = 0; i < len; i++) {
+		if (ptr->child[arr[i] - '0'] == 0) {
+			ptr->child[arr[i] - '0'] = newnode();
+		}
+		ptr = ptr->child[arr[i] - '0'];
+	}
+	ptr->end = 1;
+}
+void reset(node* now) {
+	for (int i = 0; i < 10; i++) {
+		if (now->child[i] != 0) {
+			reset(now->child[i]);
+		}
+	}
+	free(now);
+}
+
+void check(node* root) {
+	node* now = root;
+	int have = 0;
+	for (int i = 0; i < 10; i++) {
+		if (now->child[i] != 0) {
+			have = 1;
+		}
+	}
+
+	if (have == 1 && now->end == 1) {
+		flag = 1;
+		return;
+	}
+	for (int i = 0; i < 10; i++) {
+		if (now->child[i] != 0) {
+			check(now->child[i]);
+		}
+	}
+}
+int main() {
+	int testcase;
+	scanf("%d", &testcase);
+
+	while (testcase--) {
+		node* root = newnode();
+		flag = 0;
+		int num;
+		scanf("%d", &num);
+
+		for (int i = 0; i < num; i++) {
+			char str[15] = { 0, };
+			scanf("%s", str);
+			insert(root, str);
+		}
+		check(root);
+		printf("%s\n", (flag == 1) ? "NO" : "YES");
+		reset(root);
+	}
+}
