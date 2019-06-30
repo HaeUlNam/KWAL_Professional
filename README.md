@@ -37,7 +37,7 @@
 
 * 4주차 : KMP
   * 참고 : [SWExpertAcademy KMP 강의](http://bitly.kr/E1CKhC)
-  
+  * 문제풀이 : [BOJ 1701 Cubeditor](https://www.acmicpc.net/problem/1701)
   
 * 5주차 : Tree(자식 수가 정해지지 않은 Tree)
   * 참고 : [SWExpertAcademy Tree](http://bitly.kr/YF2BCj)
