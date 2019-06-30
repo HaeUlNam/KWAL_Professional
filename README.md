@@ -22,7 +22,7 @@
 
 ## 각 주차별 진행할 알고리즘 및 자료구조
 
-* 1주차(6/8) : Hash Table
+* 1주차 : Hash Table
   * 참고 : [na982 HashTable 강의편](http://bitly.kr/qkS2j3) / [na982 HashTable 구현편](http://bitly.kr/CUwqu5)
   * 추가 공부(선택 사항인데, 하면 좋음) : [라빈-카프](http://bitly.kr/Gc9SyY)
   * 문제풀이 : SWExpert 홍준이사전놀이, [BOJ 친구 네트워크](https://www.acmicpc.net/problem/4195)
@@ -38,12 +38,21 @@
 * 4주차 : KMP
   * 참고 : [SWExpertAcademy KMP 강의](http://bitly.kr/E1CKhC)
   * 문제풀이 : [BOJ 1701 Cubeditor](https://www.acmicpc.net/problem/1701)
-  
-* 5주차 : Tree(자식 수가 정해지지 않은 Tree)
+
+* 5주차 : Heap
+  * 참고 : [Heap 구현](https://github.com/TaeSeongKwon/Algorithm_DS/blob/master/%5B%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%5D%20Heap.cpp)
+  * 문제풀이 : [BOJ 1715 카드 정렬하기](https://www.acmicpc.net/problem/1715)
+
+* 6주차 : Tree(자식 수가 정해지지 않은 Tree)
   * 참고 : [SWExpertAcademy Tree](http://bitly.kr/YF2BCj)
+  * 문제풀이 : [BOJ 1693 트리 색칠하기](https://www.acmicpc.net/problem/1693), [BOJ 2250 트리의 높이와 너비](https://www.acmicpc.net/problem/2250)
 
-* 6주차 : 비트마스킹, 이분탐색
+* 7주차 : 비트마스킹
+  * 문제풀이 : [BOJ 2098 외판원 순회](https://www.acmicpc.net/problem/2098)
+  
+* 8주차 : LCA
+  * 문제풀이 : [BOJ 11437 LCA](https://www.acmicpc.net/problem/11437)
 
-* 7주차 : LCA
+* 9주차 : 좌표압축, 차원압축
 
-* 8주차 : 좌표압축, 차원압축
+* 그 이외에 각자 해야할 것 : Queue, Stack, 분할 정복, DP, 정렬(Merge or Quick), 이분 탐색
