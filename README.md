@@ -36,7 +36,7 @@
   * 문제풀이 : [BOJ 4358 생태학](https://www.acmicpc.net/problem/4358), SWExpert 홍준이사전놀이, [BOJ 전화번호 목록](https://www.acmicpc.net/problem/5052)
 
 * 4주차 : KMP
-  * 참고 : [SWExpertAcademy KMP 강의](http://bitly.kr/E1CKhC)
+  * 참고 : [SWExpertAcademy KMP 강의](http://bitly.kr/E1CKhC), [KMP설명 블로그](https://bowbowbow.tistory.com/6)
   * 문제풀이 : [BOJ 1701 Cubeditor](https://www.acmicpc.net/problem/1701)
 
 * 5주차 : Heap
