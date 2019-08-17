@@ -19,6 +19,7 @@
 * [SWExpertAcademy의 Reference Code](http://bitly.kr/FJZIbQ)
 * [Pro대비 문제풀이](https://github.com/TaeSeongKwon/Algorithm_DS)
 * https://sangdo913.tistory.com/
+* https://blog.encrypted.gg/856?category=773649
 
 ## 각 주차별 진행할 알고리즘 및 자료구조
 
