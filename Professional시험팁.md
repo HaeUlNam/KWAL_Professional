@@ -6,3 +6,4 @@
 ``` 
 
 * C/C++ 최적화 : https://copynull.tistory.com/119
+* ++i와 i++의 차이점 : https://rudalstb.tistory.com/4
