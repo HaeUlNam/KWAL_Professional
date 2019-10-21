@@ -4,3 +4,5 @@
 ```cpp 
     for(register int i = 0; i < n; i++){} 
 ``` 
+
+* C/C++ 최적화 : https://copynull.tistory.com/119
